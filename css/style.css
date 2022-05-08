@@ -123,7 +123,6 @@ footer {
     color: #CCC;
 }
 
-
 /*Sobre*/
 
 .sobre {
@@ -206,7 +205,6 @@ form label, form legend {
 	width: 50%;
 }
 
-
 .contato ul {
     width: 100%;
     margin: 30px 15px 15px 15px;
@@ -235,18 +233,19 @@ form label, form legend {
 }
 .contato ul li a:hover {
     background-color: #101670;
-    color: #CCC;
+    color: #FFF;
    
 }
 .enviar_formulario {
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
     margin-top: 30px;
     margin-left: 26rem;
+    margin-bottom: 15px;
     font-size: 20px;
     font-weight: bold;
     border-radius: 5px;
     text-transform: uppercase;
-    color:#FFF;
+    color:#000000;
     box-shadow: 3px 3px 3px black;
     transition: 2s transform; 
     cursor: pointer;
@@ -254,8 +253,6 @@ form label, form legend {
 }
 .enviar_formulario:hover {
     transform: scale(1.3);
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
 }
 
 /*Media Screen*/
