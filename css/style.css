@@ -43,11 +43,11 @@ p {font-size: 1.25em; line-height: 1.4em;}
 header {
     width: 100%;
     height: auto;
-    background-image: linear-gradient(to bottom,#101670, #7178dd) ;
+    background-image: linear-gradient(to bottom,#101670, #7178dd);
     display: flex;
 }
-header div.container {justify-content: space-between !important; align-items: center}
 
+header div.container {justify-content: space-between !important; align-items: center}
 
 .logo {
     width: 100px;
@@ -134,7 +134,7 @@ section.lista {
 footer {
     text-align: center;
     padding: 18px;
-    background-image: linear-gradient(to top,#101670, #7178dd) ;
+    background-image: linear-gradient(to top,#101670, #7178dd);
     color: #FFF;
 }
 
