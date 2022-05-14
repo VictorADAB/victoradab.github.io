@@ -15,7 +15,7 @@ body, html {
 
 img {
     max-width: 100%;
-
+   
 }
 
 h1 {
@@ -43,19 +43,23 @@ p {font-size: 1.25em; line-height: 1.4em;}
 header {
     width: 100%;
     height: auto;
-    background-color: #101670;
+    background-image: linear-gradient(to bottom,#101670, #7178dd) ;
     display: flex;
 }
-
 header div.container {justify-content: space-between !important; align-items: center}
+
 
 .logo {
     width: 100px;
     height: 120px;
     flex: 0 1 90px;
+    display: block;
 }
 .nome {
-    align-items: center;
+    float: left;
+    color: #fff;
+    align-items: float; 
+
 }
 
 nav {flex: 0 1 700px;}
@@ -130,7 +134,7 @@ section.lista {
 footer {
     text-align: center;
     padding: 18px;
-    background-color: #101670;
+    background-image: linear-gradient(to top,#101670, #7178dd) ;
     color: #FFF;
 }
 
@@ -145,7 +149,7 @@ footer {
     box-shadow: 15px 15px 15px 0px rgba(57, 106, 240, 0.582);
 }
 
-h1.nome::after {
+h1.nome2::after {
     content: "";
     display: block;
     width: 100%;
