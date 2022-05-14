@@ -13,7 +13,10 @@ body, html {
     font-size: 16px;
 }
 
-img {max-width: 100%;}
+img {
+    max-width: 100%;
+
+}
 
 h1 {
     font-weight: bold;
@@ -47,9 +50,12 @@ header {
 header div.container {justify-content: space-between !important; align-items: center}
 
 .logo {
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 120px;
     flex: 0 1 90px;
+}
+.nome {
+    align-items: center;
 }
 
 nav {flex: 0 1 700px;}
