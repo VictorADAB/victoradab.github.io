@@ -45,7 +45,7 @@ p {font-size: 1.25em; line-height: 1.4em;}
 header {
     width: 100%;
     height: auto;
-    background-image: linear-gradient(to bottom,#101670, #7178dd) ;
+    background-image: linear-gradient(to bottom,#080b38, #4c58f7) ;
     display: flex;
 }
 
@@ -63,7 +63,7 @@ header div.container {justify-content: space-between !important; align-items: ce
 
 .nome {
     float: left;
-    background-image: linear-gradient(to top, #414141ce, #ffffff);
+    background-image: linear-gradient(to top, #000000ce, #7e7e7ece, #ffffff);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -75,9 +75,10 @@ header div.container {justify-content: space-between !important; align-items: ce
 
 .subtitulo {
     font-family: 'Cinzel', serif;
-    font-size: 0.9em;
+    font-size: 1.2em;
+    font-weight: bold;
     text-align: center;
-    background-image: linear-gradient(to top, #b4b4b4, #ffffff);
+    background-image: linear-gradient(to bottom, #000000ce, #272727ce, #ffffff);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -155,7 +156,7 @@ section.lista {
 footer {
     text-align: center;
     padding: 18px;
-    background-image: linear-gradient(to top,#101670, #7178dd) ;
+    background-image: linear-gradient(to top,#080b38, #4c58f7) ;
     color: #FFF;
 }
 
