@@ -230,10 +230,6 @@ p.paragrafo + p.paragrafo {margin: 15px 0;}
     text-align: justify;
 }
 
-article {
-    margin-bottom: 200px;
-}
-
 article.sobre {
     background-color: #ffffff73;
     padding: auto;
@@ -258,8 +254,9 @@ article.sobre {
 
 div.item {
     background-image: linear-gradient(to bottom, #ffffff73, #0028d896);
-    padding-top: 100px;
+    padding-top: 134px;
     margin-bottom: 100px; 
+    font-weight: bold;
 }
 .item {
     text-align: center;
