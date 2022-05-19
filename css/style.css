@@ -15,18 +15,24 @@ body, html {
 
 img {
     max-width: 100%;
-   
 }
+
+
 ul.rslides {
     box-shadow: 15px 15px 10px 0px rgba(37, 39, 44, 0.582);
     border-radius: 7px;
+    transition: 1s transform;
+}
+
+ul.rslides:hover {
+    transform: scale(1.045);
 }
 
 .slide {
     max-width: 90%;
     margin: auto;
     padding-top: 10px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
 }
 
 h1 {
