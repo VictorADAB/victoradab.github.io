@@ -8,7 +8,7 @@
 body, html {
     width: 100%;
     height: 100%;
-    background-color: #EEE;
+    background-color: #676dc5;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
@@ -16,6 +16,17 @@ body, html {
 img {
     max-width: 100%;
    
+}
+ul.rslides {
+    box-shadow: 15px 15px 10px 0px rgba(37, 39, 44, 0.582);
+    border-radius: 7px;
+}
+
+.slide {
+    max-width: 90%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 80px;
 }
 
 h1 {
@@ -45,7 +56,7 @@ p {font-size: 1.25em; line-height: 1.4em;}
 header {
     width: 100%;
     height: auto;
-    background-image: linear-gradient(to bottom,#080b38, #4c58f7) ;
+    background-image: linear-gradient(to bottom, #000220, #676dc5);
     display: flex;
 }
 
@@ -57,18 +68,17 @@ header div.container {justify-content: space-between !important; align-items: ce
     height: 120px;
     flex: 0 1 90px;
     display: block;
-
 }
-
 
 .nome {
     float: left;
-    background-image: linear-gradient(to top, #000000ce, #7e7e7ece, #ffffff);
+    background-image: linear-gradient(to top, #2c2c2cce, #7e7e7ece, #ffffff);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Cinzel', serif;
     font-weight: bold;
+    text-align: center;
     font-size: 2.2em;
 
 }
@@ -108,14 +118,14 @@ nav ul li a {
     border: 1px solid #FFF;
     border-radius: 5px;
     margin: 20px;
-    box-shadow: 2px 2px 5px rgb(102, 116, 240);
-    background-image: linear-gradient(to top, #101670, #6a73ec);
+    box-shadow: 7px 7px 5px rgba(37, 39, 44, 0.582);
+    background-image: linear-gradient(to top, #000220, #676dc5);
     transition: all 0.3s linear;
     
 }
 
 nav ul li a:hover {
-    background-image: linear-gradient(to bottom, #101670, #6a73ec);
+    background-image: linear-gradient(to bottom, #000220, #676dc5);
     transform: scale(1.1);
 
 }
@@ -124,7 +134,7 @@ main {
     width: 100%;
     height: auto;
     margin: 0 auto;
-    background-color: #EEE;
+    background-color: #676dc5;
 }
 
 article {
@@ -156,7 +166,10 @@ section.lista {
 footer {
     text-align: center;
     padding: 18px;
-    background-image: linear-gradient(to top,#080b38, #4c58f7) ;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(to top, #000220, #676dc5) ;
     color: #FFF;
 }
 
@@ -167,8 +180,9 @@ footer {
     padding: 15px;
     background-color: #FFF;
     margin: 15px auto;
+    margin-bottom: 30px;
     border-radius: 5px;
-    box-shadow: 15px 15px 15px 0px rgba(57, 106, 240, 0.582);
+    box-shadow: 15px 15px 15px 0px rgba(37, 39, 44, 0.582);
 }
 
 h1.nome2::after {
@@ -189,7 +203,7 @@ h1.nome2::after {
     height: 400px;
     margin: 0 auto;
     border-radius: 50%;
-    box-shadow: 1px 1px 30px blue;
+    box-shadow: 15px 15px 15px 0px rgba(37, 39, 44, 0.582);
     transition: 1s transform;
 }
 
@@ -207,10 +221,18 @@ h1.nome2::after {
 
 p.paragrafo + p.paragrafo {margin: 15px 0;}
 
+.paragrafo { 
+    text-align: justify;
+
+}
+article.sobre {
+    background-color: #ffffff73;
+}
+
 /*Portfólio*/
 
 .item {
-    box-shadow: 15px 15px 15px 0px rgba(57, 106, 240, 0.582);
+    box-shadow: 15px 15px 15px 0px rgba(37, 39, 44, 0.582);
     transition: 1s transform;
 }
 
@@ -223,6 +245,14 @@ p.paragrafo + p.paragrafo {margin: 15px 0;}
     margin-bottom: 20px;
 }
 
+div.item {
+    background-image: linear-gradient(to bottom, #ffffff73, #0028d896);
+    padding-top: 100px;
+}
+.item {
+    text-align: center;
+   
+}
 
 /*Contato*/
 .contato {
@@ -231,7 +261,7 @@ p.paragrafo + p.paragrafo {margin: 15px 0;}
     background-color: #FFF;
     margin: 15px auto;
     border-radius: 5px;
-    box-shadow: 15px 15px 15px 0px rgba(57, 106, 240, 0.582);
+    box-shadow: 15px 15px 15px 0px rgba(37, 39, 44, 0.582)
 }
 
 form {
@@ -301,7 +331,12 @@ form label, form legend {
     background-image: linear-gradient(to bottom, #101670, #6a73ec);
     transform: scale(1.3);
 }
-
+form.contato {
+    background-color: #ffffff73;
+}
+article.contato {
+        background-color: #ffffff73;
+}
 /*Media Screen*/
 @media screen and (max-width: 600px) {
     body, html {font-size: 12px}
